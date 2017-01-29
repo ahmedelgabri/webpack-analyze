@@ -14,7 +14,6 @@ module.exports = {
     ]
   },
   plugins: [
-    new webpack.IgnorePlugin(/unicode\/category\/So/, /node_modules/),
     new webpack.LoaderOptionsPlugin({
       debug: !isPROD,
       minimize: isPROD
